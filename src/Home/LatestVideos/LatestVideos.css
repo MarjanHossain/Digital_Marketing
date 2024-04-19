@@ -1,0 +1,13 @@
+.slick-slide > div {
+    @apply lg:mx-2 
+ }
+ /* Change the color of the navigation icons */
+ .slick-prev:before{
+  @apply text-primary opacity-50 duration-150 lg:text-5xl text-4xl  lg:ms-[-40px] lg:block hidden font-semibold
+
+ }
+ .slick-next:before {
+   @apply text-primary opacity-50 duration-150 lg:text-5xl text-4xl lg:ms-1 ms-[-20px] mb-20 pb-24  lg:block hidden font-semibold
+   /* Change this to the desired color (e.g., red) */
+ }
+ 

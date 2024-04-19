@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover li a {
+    @apply lg:hover:text-cyan-500 transition-all duration-300 hover:text-purple-600
+}
+
+
