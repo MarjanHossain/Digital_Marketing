@@ -1,13 +1,14 @@
-import img7 from './assets/All_images/images (1).jpg'
-import img8 from './assets/All_images/images (2).jpg'
-import img9 from './assets/All_images/images (3).jpg'
 
-import img1 from "./assets/All_images/image1.jpg"
-import img2 from "./assets/All_images/image2.jpg"
-import img3 from "./assets/All_images/image3.jpg"
-import img4 from "./assets/All_images/image4.jpg"
-import img5 from "./assets/All_images/image5.jpg"
-// import img6 from "./assets/All_images/image6.jpg"
+import img1 from "./assets/images/image (1).jpg"
+import img2 from "./assets/images/image (2).jpg"
+import img3 from "./assets/images/image (3).jpg"
+import img4 from "./assets/images/image (4).jpg"
+import img5 from "./assets/images/image (5).jpg"
+import img6 from "./assets/images/image (6).jpg"
+import img7 from "./assets/images/image (7).jpg"
+import img8 from "./assets/images/image (8).jpg"
+import img9 from "./assets/images/image (9).jpg"
+import img10 from "./assets/images/image (10).jpg"
 
 
 export const CardData = [
@@ -34,35 +35,35 @@ export const CardData = [
      
     {
         id: 5,
-        image: img7,
-        link:'https://www.youtube.com/'
-    },
-    {
-        id: 6,
         image: img5,
         link:'https://www.youtube.com/'
     },
     {
-        id: 7,
-        image: img1,
+        id: 6,
+        image: img6,
         link:'https://www.youtube.com/'
     },
-  
-    // {
-    //     id: 6,
-    //     image: img6,
-    //     link:'https://www.youtube.com/'
-    // },
+    {
+        id: 7,
+        image: img7,
+        link:'https://www.youtube.com/'
+    },
   
     {
         id: 8,
         image: img8,
         link:'https://www.youtube.com/'
-
     },
+  
     {
         id: 9,
         image: img9,
+        link:'https://www.youtube.com/'
+
+    },
+    {
+        id: 10,
+        image: img10,
         link:'https://www.youtube.com/'
 
     },
