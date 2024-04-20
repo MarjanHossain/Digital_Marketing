@@ -11,7 +11,7 @@ const HomeCard = () => {
                 subHeading={"Click on their image to watch them do the unspeakable. "}
             />
             {/*//? =======HomeCard====== */}
-            <div className="grid lg:grid-cols-3 grid-cols-2 gap-4 lg:gap-6 space-y-0 lg:space-y-0 " >
+            <div className="grid lg:grid-cols-3 grid-cols-2 gap-2 lg:gap-6 space-y-0 lg:space-y-0 " >
                 {
                     CardData.map((cardInfo, i) =>
                         <Card key={i} cardInfo={cardInfo}>
