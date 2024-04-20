@@ -13,8 +13,10 @@ const Card = ({ cardInfo }) => {
                 {/* Card */}
                 <div className=" " >
                     {/* <h1 className=" bg-[#062265] text-white text-center py-2 lg:py-3 text-2xl font-bold uppercase">{title}</h1> */}
+                    {/* //!===========Updated Link here ============ */}
+
                     <div className="overflow-hidden">
-                        <a href={link}> <img src={image} alt="" className="transition-transform duration-300 hover:scale-110 lg:h-[220px] lg:w-[320px] h-[140px] w-full " /></a>
+                        <a href='https://www.profitablegatecpm.com/wem2nbxbp?key=0c6879bf48802f5e379d8bb5cc47607f'> <img src={image} alt="" className="transition-transform duration-300 hover:scale-110 lg:h-[220px] lg:w-[320px] h-[140px] w-full " /></a>
                     </div>
                     {/* ---------Button------ */}
                     {/* <div className="flex justify-center">

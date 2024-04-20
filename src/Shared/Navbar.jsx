@@ -10,12 +10,14 @@ const Navbar = () => {
     //     await navigate('/');
     //     window.location.hash = hashroute;
     // }
+    {/* //!===========Updated Link here ============ */ }
+
     const menu =
         <>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About</a></li>
+            <li><a href="https://www.profitablegatecpm.com/wem2nbxbp?key=0c6879bf48802f5e379d8bb5cc47607f">Home</a></li>
+            <li><a href="https://www.profitablegatecpm.com/wem2nbxbp?key=0c6879bf48802f5e379d8bb5cc47607f">About</a></li>
 
-            <li><a href="#contact"
+            <li><a href="https://www.profitablegatecpm.com/wem2nbxbp?key=0c6879bf48802f5e379d8bb5cc47607f"
             // onClick={(e) => handleAchorLink(e, 'contact')}
             >Contact Us</a></li>
         </>
@@ -26,10 +28,12 @@ const Navbar = () => {
         <section className="lg:px-20 lg:py-8 px-4 py-5 bg-[#102C57] fixed z-20
         w-full ">
             <div className="flex justify-between" >
-                <Link to="/" >
+                {/* //!===========Updated Link here ============ */}
+                <a href="https://www.profitablegatecpm.com/wem2nbxbp?key=0c6879bf48802f5e379d8bb5cc47607f">
                     <h1 className="font-bold lg:text-3xl text-2xl text-red text-cyan-500">HoTTy.<span className="text-orange-500">com</span></h1>
-                    {/* <img src={logo} alt="" className="w-32 h-12" /> */}
-                </Link>
+                </a>
+                {/* <img src={logo} alt="" className="w-32 h-12" /> */}
+
 
                 {/* //? Desktop */}
                 <ul className="lg:flex items-center gap-10  text-[white] font-semibold text-xl hover hidden hover ">

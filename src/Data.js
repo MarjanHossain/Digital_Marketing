@@ -8,7 +8,7 @@ import img6 from "./assets/images/image (6).jpg"
 import img7 from "./assets/images/image (7).jpg"
 import img8 from "./assets/images/image (8).jpg"
 import img9 from "./assets/images/image (9).jpg"
-import img10 from "./assets/images/image (10).jpg"
+import img10 from "./assets/images/image10.jpg"
 
 
 export const CardData = [
