@@ -25,7 +25,7 @@ const Navbar = () => {
     const [toggle, setToggle] = useState(false)
 
     return (
-        <section className="lg:px-20 lg:py-8 px-4 py-5 bg-[#102C57] fixed z-20
+        <section className="lg:px-20 lg:py-8 px-4 py-5 bg-[#102C57] fixed z-30
         w-full ">
             <div className="flex justify-between" >
                 {/* //!===========Updated Link here ============ */}
