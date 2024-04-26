@@ -14,10 +14,10 @@ const Navbar = () => {
 
     const menu =
         <>
-            <li><a href="https://www.profitablegatecpm.com/wem2nbxbp?key=0c6879bf48802f5e379d8bb5cc47607f">Home</a></li>
-            <li><a href="https://www.profitablegatecpm.com/wem2nbxbp?key=0c6879bf48802f5e379d8bb5cc47607f">About</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
 
-            <li><a href="https://www.profitablegatecpm.com/wem2nbxbp?key=0c6879bf48802f5e379d8bb5cc47607f"
+            <li><a href="/"
             // onClick={(e) => handleAchorLink(e, 'contact')}
             >Contact Us</a></li>
         </>
@@ -29,7 +29,7 @@ const Navbar = () => {
         w-full ">
             <div className="flex justify-between" >
                 {/* //!===========Updated Link here ============ */}
-                <a href="https://www.profitablegatecpm.com/wem2nbxbp?key=0c6879bf48802f5e379d8bb5cc47607f">
+                <a href="/">
                     <h1 className="font-bold lg:text-3xl text-2xl text-red text-cyan-500">HoTTy.<span className="text-orange-500">com</span></h1>
                 </a>
                 {/* <img src={logo} alt="" className="w-32 h-12" /> */}
